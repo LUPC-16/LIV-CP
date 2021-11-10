@@ -1,0 +1,86 @@
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+21/06/2021,06:02:12,,Invoke BalancePyG workflow: Invoke Provisiones workflow: Attach Window Variante,Failed,System exception. Retry: 1. Cannot find the UI element corresponding to this selector: <wnd app='saplogon.exe' cls='#32770' title='Buscar variante' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones workflow: Attach Window Variante
+22/06/2021,01:24:18,,Invoke Genera Hoja HT workflow: Excel Application Scope,Failed,System exception. Retry: 1. Excel File C:\Users\PC\Documents\UiPath\Extracciones-Balance-General\Procesos_Uipath\TAREA\BG Y FLUJO abril 2021 Liverpool + Suburbia.xlsx was not found. at Source: Invoke Genera Hoja HT workflow: Excel Application Scope
+22/06/2021,01:45:58,,Invoke Genera Hoja HT workflow: Excel Application Scope,Failed,"System exception. Retry: 1. Microsoft Excel no puede obtener acceso al archivo 'C:\Users\PC\Documents\UiPath\Extracciones-Balance-General\Procesos_Uipath\TAREA\7D627100'. Puede haber varios motivos:
+
+• El nombre o la ruta del archivo no existen.
+• Otro programa está usando el archivo.
+• El libro que está intentando guardar tiene el mismo nombre que otro libro que está abierto en estos momentos. at Source: Invoke Genera Hoja HT workflow: Excel Application Scope"
+22/06/2021,02:09:06,,Invoke Genera Hoja HT workflow: Excel Application Scope,Failed,"System exception. Retry: 1. Microsoft Excel no puede obtener acceso al archivo 'C:\Users\PC\Documents\UiPath\Extracciones-Balance-General\Procesos_Uipath\TAREA\9B978100'. Puede haber varios motivos:
+
+• El nombre o la ruta del archivo no existen.
+• Otro programa está usando el archivo.
+• El libro que está intentando guardar tiene el mismo nombre que otro libro que está abierto en estos momentos. at Source: Invoke Genera Hoja HT workflow: Excel Application Scope"
+22/06/2021,02:58:47,,Invoke Genera Hoja HT workflow: Excel Application Scope,Failed,System exception. Retry: 1. Error opening workbook. Make sure Excel is installed. at Source: Invoke Genera Hoja HT workflow: Excel Application Scope
+23/06/2021,03:32:28,,Invoke Genera Hoja HT workflow: Close Workbook montos,Failed,System exception. Retry: 1. Object reference not set to an instance of an object. at Source: Invoke Genera Hoja HT workflow: Close Workbook montos
+23/06/2021,03:54:46,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 1. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range
+23/06/2021,08:19:55,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 1. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range
+23/06/2021,08:22:01,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 2. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range
+23/06/2021,10:49:05,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 1. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range
+23/06/2021,11:08:48,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 1. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Invoke Excel_CopiarHoja workflow: Read Range
+24/06/2021,12:00:57,,"Invoke BalancePyG workflow: Invoke Provisiones CUATRO PyG: Attach Window Seleccion de variante DEPRECIACION ",Failed,"System exception. Retry: 1. Cannot find the UI element corresponding to this selector: <wnd app='saplogon.exe' cls='#32770' title='*Catálogo de variantes del programa*' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones CUATRO PyG: Attach Window Seleccion de variante DEPRECIACION "
+24/06/2021,12:16:34,,Invoke BalancePyG workflow: Invoke Provisiones CUATRO PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 1. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones CUATRO PyG: Invoke Excel_CopiarHoja workflow: Read Range
+24/06/2021,12:19:17,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance,Failed,System exception. Retry: 2. Cannot find the UI element corresponding to this selector: <sap id='usr/tabsTABSTRIP_TABBL1/tabpUCOM1/ssub%_SUBSCREEN_TABBL1:RFBILA00:0001/ctxtBILAVERS' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance
+24/06/2021,12:37:27,,Invoke BalancePyG workflow: Invoke Provisiones CUATRO PyG: Invoke Excel_CopiarHoja workflow: Read Range,Failed,System exception. Retry: 1. The sheet does not exist. at Source: Invoke BalancePyG workflow: Invoke Provisiones CUATRO PyG: Invoke Excel_CopiarHoja workflow: Read Range
+24/06/2021,12:39:45,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance,Failed,System exception. Retry: 2. Cannot find the UI element corresponding to this selector: <sap id='usr/tabsTABSTRIP_TABBL1/tabpUCOM1/ssub%_SUBSCREEN_TABBL1:RFBILA00:0001/ctxtBILAVERS' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance
+24/06/2021,12:41:13,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance,Failed,System exception. Retry: 3. Cannot find the UI element corresponding to this selector: <sap id='usr/tabsTABSTRIP_TABBL1/tabpUCOM1/ssub%_SUBSCREEN_TABBL1:RFBILA00:0001/ctxtBILAVERS' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance
+24/06/2021,12:42:45,,Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance,Failed,System exception. Retry: 0. Cannot find the UI element corresponding to this selector: <sap id='usr/tabsTABSTRIP_TABBL1/tabpUCOM1/ssub%_SUBSCREEN_TABBL1:RFBILA00:0001/ctxtBILAVERS' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones Uno PyG: Type Into Estructura de Balance
+24/06/2021,12:44:08,,Invoke Saldos de cuentas de mayor workflow: Invoke Saldos uno: Invoke Fecha para saldos True,Failed,"System exception. Retry: 1. The values provided for the root activity's arguments did not satisfy the root activity's requirements:
+'DynamicActivity': The following keys from the input dictionary do not map to arguments and must be removed: in_Variante.  Please note that argument names are case sensitive.
+Parameter name: rootArgumentValues at Source: Invoke Saldos de cuentas de mayor workflow: Invoke Saldos uno: Invoke Fecha para saldos True"
+25/06/2021,08:57:59,,Invoke Balanzas consolidadas workflow: Copy File,Failed,System exception. Retry: 1. The file 'C:\Users\PC\Documents\UiPath\Extracciones-Balance-General\Procesos_Uipath\TAREA\BG Y FLUJO abril 2021 Liverpool + Suburbia.xlsx' already exists. at Source: Invoke Balanzas consolidadas workflow: Copy File
+25/06/2021,04:42:11,,Invoke Asociados Acreedores workflow: Invoke Acreedores workflow PROVEEDORES ASOCIADOS H: Attach Window Rutas de guardado de archivo,Failed,System exception. Retry: 1. Cannot find the UI element corresponding to this selector: <wnd app='saplogon.exe' cls='#32770' title='Saldos acreedores en moneda local' /> at Source: Invoke Asociados Acreedores workflow: Invoke Acreedores workflow PROVEEDORES ASOCIADOS H: Attach Window Rutas de guardado de archivo
+29/06/2021,11:07:47,,Invoke BalancePyG workflow: Invoke Excel_CopiarHojaArchivoFinal Uno PyG: Read Range,Failed,System exception. Retry: 1. A column named '05/31/2021 00:00:00' already belongs to this DataTable. at Source: Invoke BalancePyG workflow: Invoke Excel_CopiarHojaArchivoFinal Uno PyG: Read Range
+29/06/2021,02:31:42,,Invoke Asociados Acreedores workflow: Invoke Acreedores workflow ACREEDORES: For Each Row dt_Tiempos,Failed,System exception. Retry: 1. Object reference not set to an instance of an object. at Source: Invoke Asociados Acreedores workflow: Invoke Acreedores workflow ACREEDORES: For Each Row dt_Tiempos
+30/06/2021,01:02:57,,"Invoke BalancePyG workflow: Invoke Provisiones ocho PyG: Attach Window Seleccion de variante DEPRECIACION ",Failed,"System exception. Retry: 1. Cannot find the UI element corresponding to this selector: <wnd app='saplogon.exe' cls='#32770' title='*Catálogo de variantes del programa*' /> at Source: Invoke BalancePyG workflow: Invoke Provisiones ocho PyG: Attach Window Seleccion de variante DEPRECIACION "

@@ -1,0 +1,62 @@
+{
+  "name": "ReFramework",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.EasyExcel.Activities": "[26.1.0]",
+    "BalaReva.Excel.Activities": "[2020.3.3]",
+    "ScrollActivity": "[1.0.2]",
+    "UiPath.Excel.Activities": "[2.5.4]",
+    "UiPath.GSuite.Activities": "[1.11.0]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.System.Activities": "[19.4.1]",
+    "UiPath.UIAutomation.Activities": "[19.4.2]",
+    "UiPathTeam.GenerateRandomPassword.Activities": "[1.0.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "8cebcfab-0323-45c3-9509-d04f77dba6d0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
