@@ -46,7 +46,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="30">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="29">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -96,6 +96,7 @@
       <Variable x:TypeArguments="x:String" Name="CentroDestino" />
       <Variable x:TypeArguments="x:String" Name="CentroReceptor" />
       <Variable x:TypeArguments="x:String" Name="CentroCosto" />
+      <Variable x:TypeArguments="x:String" Name="VariablePrueba" />
     </Flowchart.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -138,7 +139,7 @@
               <av:PointCollection x:Key="ConnectorLocation">300,514.6 300,563.6</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InvokeCode ContinueOnError="{x:Null}" Code="TipoImpuesto = in_TransactionItem.Item(0).ToString&#xD;&#xA;TipoPosicion = in_TransactionItem.Item(1).ToString&#xD;&#xA;TextoBreve = in_TransactionItem.Item(2).ToString&#xD;&#xA;&#xD;&#xA;Cantidad = in_TransactionItem.Item(3).ToString&#xD;&#xA;Unidad = in_TransactionItem.Item(4).ToString&#xD;&#xA;GpoArticulo= in_TransactionItem.Item(5).ToString&#xD;&#xA;Centro= in_TransactionItem.Item(6).ToString&#xD;&#xA;Gcp = in_TransactionItem.Item(7).ToString&#xD;&#xA;NumProveedor = in_TransactionItem.Item(8).ToString&#xD;&#xA;Orgc = &quot;0009&quot;&#xD;&#xA;NumServicio = in_TransactionItem.Item(9).ToString&#xD;&#xA;PrecioBruto= in_TransactionItem.Item(10).ToString&#xD;&#xA;CentroCosto =   in_TransactionItem.Item(11).ToString&#xD;&#xA;AreaSolicitada = in_TransactionItem.Item(12).ToString&#xD;&#xA;CentroDestino = in_TransactionItem.Item(13).ToString&#xD;&#xA;CentroReceptor = in_TransactionItem.Item(14).ToString&#xD;&#xA;&#xD;&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+          <ui:InvokeCode ContinueOnError="{x:Null}" Code="TipoImpuesto = in_TransactionItem.Item(0).ToString&#xD;&#xA;TipoPosicion = in_TransactionItem.Item(1).ToString&#xD;&#xA;TextoBreve = in_TransactionItem.Item(2).ToString&#xD;&#xA;&#xD;&#xA;Cantidad = in_TransactionItem.Item(3).ToString&#xD;&#xA;Unidad = in_TransactionItem.Item(4).ToString&#xD;&#xA;GpoArticulo= in_TransactionItem.Item(5).ToString&#xD;&#xA;Centro= in_TransactionItem.Item(6).ToString&#xD;&#xA;Gcp = in_TransactionItem.Item(7).ToString&#xD;&#xA;NumProveedor = in_TransactionItem.Item(8).ToString&#xD;&#xA;Orgc = &quot;0009&quot;&#xD;&#xA;NumServicio = in_TransactionItem.Item(9).ToString&#xD;&#xA;PrecioBruto= in_TransactionItem.Item(10).ToString&#xD;&#xA;CentroCosto =   in_TransactionItem.Item(11).ToString&#xD;&#xA;AreaSolicitada = in_TransactionItem.Item(12).ToString&#xD;&#xA;CentroDestino = in_TransactionItem.Item(13).ToString&#xD;&#xA;CentroReceptor = in_TransactionItem.Item(14).ToString&#xD;&#xA;&#xD;&#xA;" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
             <ui:InvokeCode.Arguments>
               <InArgument x:TypeArguments="sd:DataRow" x:Key="in_TransactionItem">[in_TransactionItem]</InArgument>
               <OutArgument x:TypeArguments="x:String" x:Key="TipoImpuesto">[TipoImpuesto]</OutArgument>
@@ -237,11 +238,11 @@
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">200,873.6</av:Point>
-                              <av:Size x:Key="ShapeSize">200,53</av:Size>
-                              <av:PointCollection x:Key="ConnectorLocation">300,926.4 300,953.6</av:PointCollection>
+                              <av:Size x:Key="ShapeSize">200,51</av:Size>
+                              <av:PointCollection x:Key="ConnectorLocation">300,924.6 300,953.6</av:PointCollection>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SAP_Datos Adicionales workflow" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Procesos_Uipath\SAP\ME51N\SAP_ME51N Datos Adicionales.xaml">
+                          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SAP_Datos Adicionales workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Procesos_Uipath\SAP\ME51N\SAP_ME51N Datos Adicionales.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="in_AreaSolicitada">[AreaSolicitada]</InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="in_CentroDestino">[CentroDestino]</InArgument>
@@ -258,11 +259,11 @@
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">200,953.6</av:Point>
-                                  <av:Size x:Key="ShapeSize">200,53</av:Size>
-                                  <av:PointCollection x:Key="ConnectorLocation">300,1006.4 300,1146.4</av:PointCollection>
+                                  <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                  <av:PointCollection x:Key="ConnectorLocation">300,1004.6 300,1034.6 299.8,1034.6 299.8,1146.4</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Flowchart sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="Flowchart_3">
+                              <Flowchart sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_3">
                                 <Flowchart.Variables>
                                   <Variable x:TypeArguments="x:Boolean" Name="ElemExists" />
                                   <Variable x:TypeArguments="x:String" Name="TextoElemento" />
@@ -458,12 +459,12 @@
                                 </FlowStep>
                               </Flowchart>
                               <FlowStep.Next>
-                                <FlowDecision x:Name="__ReferenceID16" Condition="[in_TransactionData.Rows.Count = in_TransactionNumber]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_6">
+                                <FlowDecision x:Name="__ReferenceID16" Condition="[in_TransactionData.Rows.Count = in_TransactionNumber]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_6">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <av:Point x:Key="ShapeLocation">260.8,1146.4</av:Point>
-                                      <av:Size x:Key="ShapeSize">78,87</av:Size>
+                                      <av:Size x:Key="ShapeSize">79,87</av:Size>
                                       <av:PointCollection x:Key="TrueConnector">260.8,1190 200,1190</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -472,10 +473,10 @@
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">0,1163.6</av:Point>
-                                          <av:Size x:Key="ShapeSize">200,53</av:Size>
+                                          <av:Size x:Key="ShapeSize">200,51</av:Size>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SAP_Salir Transaccion workflow" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Procesos_Uipath\SAP\SAP_Salir Transaccion.xaml">
+                                      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke SAP_Salir Transaccion workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Procesos_Uipath\SAP\SAP_Salir Transaccion.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <scg:Dictionary x:TypeArguments="x:String, Argument" />
                                         </ui:InvokeWorkflowFile.Arguments>
@@ -677,11 +678,11 @@
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">910,846.4</av:Point>
-                                          <av:Size x:Key="ShapeSize">200,53</av:Size>
-                                          <av:PointCollection x:Key="ConnectorLocation">1010,899.2 1010,966.4</av:PointCollection>
+                                          <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                          <av:PointCollection x:Key="ConnectorLocation">1010,897.4 1010,927.4 1009.8,927.4 1009.8,966.4</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Flowchart sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="Flowchart_4">
+                                      <Flowchart sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_4">
                                         <Flowchart.Variables>
                                           <Variable x:TypeArguments="x:Boolean" Name="ElemExists" />
                                           <Variable x:TypeArguments="x:String" Name="TextoElemento" />
@@ -877,12 +878,12 @@
                                         </FlowStep>
                                       </Flowchart>
                                       <FlowStep.Next>
-                                        <FlowDecision x:Name="__ReferenceID36" Condition="[in_TransactionData.Rows.Count = in_TransactionNumber]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_11">
+                                        <FlowDecision x:Name="__ReferenceID36" Condition="[in_TransactionData.Rows.Count = in_TransactionNumber]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_11">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               <av:Point x:Key="ShapeLocation">970.8,966.4</av:Point>
-                                              <av:Size x:Key="ShapeSize">78,87</av:Size>
+                                              <av:Size x:Key="ShapeSize">79,87</av:Size>
                                               <av:PointCollection x:Key="TrueConnector">1072.31814114769,778.563433880569 981.518141147694,778.563433880569</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
